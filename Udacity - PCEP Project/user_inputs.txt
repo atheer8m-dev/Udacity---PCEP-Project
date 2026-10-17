@@ -1,0 +1,11 @@
+Transformational AI: Analyzing Ecommerce Large Datasets for Machine Learning
+Completed by: Atheer Alumair
+—————————————-
+
+Question 1: The dataset includes columns like rating, title, text, asin, parent_asin, user_id, timestamp, and helpful_vote. The data types consist of strings (object) for text and IDs, floats/integers for ratings, and integers for votes. The reviews are structured as a combination of structured metadata and unstructured text.
+Question 2: Yes, this result was expected. By applying a stricter rating threshold of 4.7 or higher, we filtered out products rated between 4.5 and 4.69, naturally reducing the total dataset count to a smaller percentage of the original top products.
+Question 3: We adjusted pandas display options, like setting max_colwidth or max_columns, to allow full text and complete columns to be visible in the output.
+Question 4: The Reviews dataset contains individual user feedback, ratings, and textual reviews for specific products, representing granular transaction-level data. In contrast, the Reviews Metadata dataset provides aggregated product-level information, such as average ratings, total review counts, prices, and overall product specifications.
+Question 5: Data aggregation and grouping (using groupby and summary statistics) combined with visualization techniques (such as histograms and scatter plots) are the most insightful methods. They allow us to discover overall distribution trends, examine price-to-rating relationships, and extract key metrics for decision-making.
+Question 6: The distribution shows a right-skewed trend, where the frequency is highest for lower to moderately priced products and decreases as the price increases. This indicates that most highly rated products fall within a lower price range, while high-priced items are less frequent in the dataset.
+Question 7: There is no strong linear correlation between price and rating. High ratings (such as 4.5 to 5.0) are distributed across both low and high price points, indicating that a higher price does not necessarily guarantee a higher average rating.
